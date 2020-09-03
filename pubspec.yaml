@@ -9,7 +9,10 @@ environment:
 dependencies:
   asn1lib: ^0.9.0-nullsafety.0
   quiver: ^3.0.0-nullsafety.3
-  crypto_keys: ^0.2.0-nullsafety.2
+  crypto_keys:
+    git:
+      url: git@github.com:Tougee/crypto_keys.git
+      ref: feature/eddsa
 
 dev_dependencies:
   test: ^1.0.0
